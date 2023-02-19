@@ -1,0 +1,51 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Survey from</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <h1 id="title">Survey form</h1>
+    <p id="description">Please fill in the survey below.</p>
+    
+    <form id="survey-form">
+      <label id="name-label"> Name: 
+        <input id="name" type="text" required placeholder="John Smith">
+      </label>
+      <label id="email-label"> Email: 
+        <input id="email" type="email" required placeholder="john@email.com">
+      </label>
+      <label id="number-label"> Age: 
+        <input id="number" type="number" min="0" max="120" placeholder="23">
+      </label>
+      <label> Employment status: 
+        <select id="dropdown">
+          <option>Select</option>
+          <option>Unemployed</option>
+          <option>Student</option>
+          <option>Employed</option>
+        </select>
+      </label>
+      <label> Cats or dogs: : 
+        <input name="cats-or-dogs" type="radio" value="cats">Cats</input>
+        <input name="cats-or-dogs" type="radio" value="dogs">Dogs</input>
+      </label>
+      <label> Cats or dogs: : 
+        <input type="checkbox" value="emails">Recieve emails</input>
+        <input type="checkbox" value="texts">Recieve texts</input>
+        <input type="checkbox" value="letters">Recieve letters</input>
+      </label>
+      <label> Additional comments:
+          <textarea> </textarea>
+      </label>
+      <input type="submit" id=submit />
+    </form>
+
+  </body>
+
+</html>
