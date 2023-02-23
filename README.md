@@ -401,3 +401,54 @@ a:active{
 }
 ```
 Active link
+
+## Psuedo-elements
+```
+::first-letter{
+}
+```
+First letter of a paragraph
+```
+::first-line{
+}
+```
+First line of a paragraph
+```
+::before{
+}
+```
+Insert content before an element
+```
+::after{
+}
+```
+Insert content after an element
+
+## Box shadow
+```
+box-shadow: ;
+```
+`h-shadow v-shadow blur spread color inset`
+
+## Text shadow
+```
+text-shadow: ;
+```
+`h-shadow v-shadow blur color`
+
+## Border radius
+```
+border-radius: ;
+```
+`top-left top-right bottom-right bottom-left`
+
+## Opacity
+```
+opacity: ;
+```
+
+## Content
+```
+content: ;
+```
+Text to be inserted
