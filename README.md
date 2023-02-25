@@ -68,56 +68,26 @@ This repository contains a collection of solutions to the challenges on [freeCod
 </html>
 ```
 
-## Headings
-```
-<h1></h1>
-<h2></h2>
-<h3></h3>
-<h4></h4>
-<h5></h5>
-<h6></h6>
-```
-
-## Paragraphs
-```
-<p></p>
-```
-
 ## Comments
-```
-<!-- -->
-```
+`<!-- -->`
 
 ## Images
-```
-<img src="" alt="">
-```
+Include an `alt`
 
 ## Anchor
-```
-<a href="" target=""></a>
-```
-`_self` = Same window/tab (default),
-`_blank`= New window/tab
+Include `target=""` - `_self`=Same window/tab (default), `_blank`=New window/tab
 
 ## Sections 
-```
-<section></section>
-```
-Used to group related content
+`<section></section>` - Used to group related content
 
 ## Lists
 ```
 <ul>
   <li></li>
-  <li></li>
-  <li></li>
 </ul>
 ```
 ```
 <ol>
-  <li></li>
-  <li></li>
   <li></li>
 </ol>
 ```
@@ -139,7 +109,6 @@ Used to group related content
 ```
 `em` = Emphasized text,
 `strong` = Important text
-
 
 ## Forms
 ```
@@ -186,32 +155,18 @@ Section of a form
 <button type="submit"></button>
 ```
 
-## Footer
+## Footer / Nav
 ```
 <footer></footer>
-```
-
-## Nav
-```
 <nav></nav>
 ```
 
-## Div
+## Containers
 ```
 <div></div>
-```
-Generic container
-
-## Span
-```
 <span></span>
 ```
-Generic inline container
-
-## Article
-```
-<article></article>
-```
+Generic and inline containers
 
 ## Horizontal rule
 ```
@@ -220,17 +175,8 @@ Generic inline container
 
 ---
 
-## Style
-```
-<link rel="stylesheet" href="">
-```
-Link to CSS stylesheet
-
-```
-<style>
-</style>
-```
-Write CSS directly
+## Boilerplate
+`<link rel="stylesheet" href="">` = Link to CSS stylesheet
 
 ## Selectors
 ```
@@ -259,79 +205,10 @@ ID selector
 /* */
 ```
 
-## background-color
-```
-background-color: ;
-```
-
-## height/width
-```
-height: ;
-width: ;
-```
-
-## margins/padding
-```
-margin: ;
-padding: ;
-```
-'top, right, bottom, left' OR 'top/bottom, right/left' OR 'auto'
-
-## border
-```
-border: ;
-```
-width, style, color
-
-## background-color
-```
-background-color: ;
-```
-
-## font-size
-```
-font-size: ;
-```
-
-## font-family
-```
-font-family: ;
-```
-
 ## font-weight
-```
-font-weight: ;
-```
+`font-weight: ;`, value = `normal`, `bold`, `100`, `200`, `300`, `400`, `500`, `600`, `700`, `800`, `900`
 
-## font-style
-```
-font-style: ;
-```
-
-## Color
-```
-color: ;
-```
-
-## Types of colors
-```
-#000000
-```
-Hexadecimal color
-```
-rgb(0, 0, 0)
-```
-RGB color
-```
-rgba(0, 0, 0, 0)
-```
-RGBA color
-```
-hsl(0, 0%, 0%)
-```
-HSL color
-
-## Types of unit
+## Units
 ```
 px
 em
@@ -345,12 +222,7 @@ text-decoration: ;
 ```
 `none`, `underline`, `overline`, `line-through`, `blink`
 
-## Background images
-```
-background-image: link;
-```
-
-## Dispplay style
+## Display style
 ```
 display: ;
 ```
@@ -362,23 +234,11 @@ position: ;
 ```
 `static` = Default, `relative` = Relative to its normal position, `absolute` = Relative to the nearest positioned ancestor, `fixed` = Relative to the viewport
 
-## Max width/height
-```
-max-width: ;
-max-height: ;
-```
-
 ## Overflow
 ```
 overflow: ;
 ```
 `visible` = Default, `hidden` = Content is clipped, `scroll` = Content is clipped and a scrollbar is added
-
-## Text alignment
-```
-text-align: ;
-```
-`left` = Left-aligned, `right` = Right-aligned, `center` = Centered, `justify` = Justified
 
 ## Psuedo-classes
 ```
@@ -423,29 +283,6 @@ Insert content before an element
 }
 ```
 Insert content after an element
-
-## Box shadow
-```
-box-shadow: ;
-```
-`h-shadow v-shadow blur spread color inset`
-
-## Text shadow
-```
-text-shadow: ;
-```
-`h-shadow v-shadow blur color`
-
-## Border radius
-```
-border-radius: ;
-```
-`top-left top-right bottom-right bottom-left`
-
-## Opacity
-```
-opacity: ;
-```
 
 ## Content
 ```
